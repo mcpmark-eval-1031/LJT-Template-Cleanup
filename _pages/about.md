@@ -28,7 +28,7 @@ This repository is a cleaned-down fork of the [Academic Pages template](https://
 The following academicpages demo pages, collections, and workflows were removed (or hidden) because they are not supported by memory:
 
 - **Publications workflow** — `_pages/publications.html`, the `_publications/` collection, the `publication_category` configuration block, and the `markdown_generator/` notebooks and CSV/TSV data used to generate publication pages.
-- **Talks** — `_pages/talks.html`, `_pages/talkmap.html`, the `_talks/` collection, and the talk-map tooling (`talkmap.py`, `talkmap.ipynb`, `talkmap_out.ipynb`, `talkmap/`).
+- **Talks** — `_pages/talks.html`, `_pages/talkmap.html`, the `_talks/` collection, the talk-map tooling (`talkmap.py`, `talkmap.ipynb`, `talkmap_out.ipynb`, `talkmap/`), and the talk-scraping GitHub Actions workflow (`.github/workflows/scrape_talks.yml`).
 - **Teaching** — `_pages/teaching.html` and the `_teaching/` collection.
 - **Portfolio** — `_pages/portfolio.html` and the `_portfolio/` collection.
 - **Blog** — `_pages/year-archive.html`, all demo posts in `_posts/` and `_drafts/`, the category/tag archive pages, and the demo comment data in `_data/comments/`.
